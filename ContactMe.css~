@@ -1,0 +1,121 @@
+body{
+margin: 0;
+padding: 0;
+	 background-image: url("contactbg.jpg");
+	 background-repeat:no-repeat;
+	 background-size: 100% 200%;
+}nav{
+position:relative;
+	 background-color: #333;
+	 font-size: 30px;
+	 font-weight: bold;
+	 font-family: 'Rancho', cursive;
+	 word-spacing:2px;
+	 letter-spacing:2px;
+margin:0;
+overflow: hidden;
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+}
+nav ul li{ 
+display:inline-block;
+	list-style-type:none;
+}
+nav > ul > li > a{
+color: #aaa;
+       background-color:#333;
+display: block;
+	 line-height: 2em;
+padding: 0.5em 0.5em;
+	 text-decoration: none;
+}
+a:hover
+{
+	background-color:#666;
+color:rgb(102, 255, 255);
+transition: all 0.5s;
+}
+div.inWindow
+{
+float:left;
+display:inline-block;
+width:500px;
+height:450px;
+       margin-top:5% ;
+       margin-left:5%;
+       text-align:center;
+       font-weight:bold;
+       font-size:30px;
+       background-image:url("windowbg1.jpg");
+       background-repeat:no-repeat;
+       background-size:100% 100%;
+transition:all 0.5s;
+opacity:0.6;
+border: 2px solid purple;
+}
+div.inWindow:hover
+{
+border:2px solid black;
+opacity:1;
+}
+div.Window2
+{
+display:inline-block;
+float:right;
+      text-align:center;
+width:500px;
+height:450px;
+       margin-top:5%;
+       margin-right:5%;
+       font-weight:bold;
+       font-size:30px;
+       background-image:url("windowbg1.jpg");
+       background-repeat:no-repeat;
+       background-size:100% 100%;
+transition:all 0.5s;
+opacity:0.6;
+border: 2px solid purple;
+}
+div.Window2:hover
+{
+border:2px solid black;
+opacity:1;
+}
+#icons 
+{
+	margin-top:20px;
+	margin-left:30px;
+display:inline-block;
+float:left;
+}
+#icons img
+{
+height:65px;
+width:65px;
+}
+#list2
+{
+	margin-top:20px;
+	text-align:left;
+	margin-right:25px;
+display:inline-block;
+float:right;
+}
+
+
+@font-face {
+	                font-family: 'Tangerine';
+			                        font-style: normal;
+						                                font-weight: 400;
+src: local('Tangerine'), url(f.woff) format('woff');
+}
+@font-face {
+	                font-family: 'Rancho';
+			                        font-style: normal;
+						                                font-weight: 400;
+src: local('Rancho'), url(f3.woff) format('woff');
+}
+

@@ -1,0 +1,19 @@
+body
+{
+background-image:url(gui.jpg);
+background repeat: no-repeat;
+}
+#div1
+{
+float:left;
+display:inline-block;
+}
+#div2{
+display:inline-block;
+}
+#div4{
+display:inline-block;
+}
+#div5{
+display:inline-block;
+}

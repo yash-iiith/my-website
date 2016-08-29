@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("guitarbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 120% ;
+}
+nav{
+    position:relative;
+    background-color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Rancho', cursive;
+    word-spacing:2px;
+    letter-spacing:2px;
+    margin:0;
+    overflow: hidden;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+div.fade{
+    margin:100px 100px;
+
+    width:550px;
+    height:300px;
+    border:2px solid black;
+    background: rgb(102, 255, 255);
+    background-repeat:no-repeat;
+    background-size: 100% 100%; 
+    color:black;
+
+    font-style:italic;
+    font-weight:bold;
+    display:inline-block;
+    font-size:2.5em;
+    float:left;
+    text-align:center;
+    line-height:200px;
+    transition:all 0.5s;
+    opacity:0.3;
+}
+div.fade:hover
+{
+    opacity:0.7;
+}
+nav ul li{
+    display:inline-block;
+    list-style-type:none;
+}
+nav > ul > li > a{
+    color: #aaa;
+    background-color:#333;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color:#666;
+    color:rgb(102, 255, 255);
+    transition: all 0.5s;     
+}
+/*div.me
+  {
+  border: 0px;
+  position:relative;
+  left: 500px;
+  top: 100px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight:bold;
+  }*/
+img
+{
+    float:right;
+    display:inline-block;
+    width:270px;
+    height:300px;
+    border:2px solid blue;
+    margin-top:8%;
+    margin-right:10%;
+    opacity:0.6;
+}
+img:hover
+{
+    width:300px;
+    height:340px;
+    opacity:1;
+    border:3px solid black;
+    transition:all 0.8s;
+}
+
+
+
+
+@font-face {
+    font-family: 'Tangerine';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Tangerine'), url(f.woff) format('woff');
+}
+@font-face {
+    font-family: 'Rancho';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Rancho'), url(f3.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico'), url(f1.woff) format('woff');
+}
+
+
+@font-face {
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Indie Flower'), local('IndieFlower'), url(f4.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Creepster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Creepster'), url(f5.woff) format('woff');
+}
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kaushan Script'), url(f6.woff) format('woff');
+}
+
+
+
+

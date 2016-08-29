@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="AboutMe.css"/>
+<title>YASH GOYAL</title>
+</head>
+<body>
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="AboutMe.html">About Me</a></li>
+<li><a href="Arrow.html">My Favourite Superhero</a></li>
+<li><a href="ContactMe.html">Contact Me</a></li>
+</ul>
+</nav>
+<div class="int">
+<h1>YASH GOYAL</h1>
+<p>International Institute of Information Technology, Hyderabad<br>Undergraduate 1st Year
+<br>B.tech and MS by Research in Computer Science and Engineering<br><p>
+</div>
+<div class="intro">
+<table>
+<tr>
+<td>Current City:</td>
+<td>Hyderabad</td>
+</tr>
+<tr>
+<td>Native City:</td>
+<td>Jhansi</td>
+</tr>
+<tr>
+<td>School:</td>
+<td>Mahatma Hansraj Modern School,Jhansi</td>
+</tr>
+<tr>
+<td>Age:</td>
+<td>19 years</td>
+</tr>
+</table>
+</div>
+
+<div class="about">
+<h1>About Me</h1>
+<p><img src="./yash1.jpg" alt="me again">I come from Jhansi. At the age of 19 years, all I dream about is a successful and settled + 'happy' life ahead. As I was good in Mathematics in high school, I opted for Mathematics in +2 I worked during my intermediate to get into the IITs. But,I couldn't get into any of the IITs,so I decided to give it another try and went to "The Coaching Hub"-Kota.My result improved and i got a seat in IIT but luckily i also got selected in IIITH which was my dreamplace ever since i came to know about it.Thank God, I landed 'here' at IIIT, Hyderabad. I am highly interested in everything that matters to me, various activities that surround my daily life and always up for new experiences. I love spending time with myself. I believe that everything happens for good, and for a purpose, according to what one deserves. I wish to be a better human being and move on and on in life, learning new things everyday by accepting that has already happened. For the only aim to grasp knowledge, I now lead a new life in a new city with new people and new environment.</p>
+</div>
+</body>
+</html>
